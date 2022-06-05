@@ -1,5 +1,10 @@
+
+
 <template>
+<div>
     <main>
-        <h1>Hi</h1>
+      
+        <ContentDoc />
     </main>
+</div>
 </template>
