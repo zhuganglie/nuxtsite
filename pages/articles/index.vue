@@ -26,7 +26,7 @@ useHead({
 						<h2>
 								<NuxtLink :to="article._path">{{ article.title }}</NuxtLink>
 						</h2>
-						<p>{{ article.date }}</p>
+						<p>{{ article.date.slice(0, 10) }}</p>
 				</div>
 		</ContentList>
 </main>

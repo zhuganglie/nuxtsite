@@ -1,56 +1,24 @@
-<!--<template>
-<header class="flex items-center justify-center mb-16 bg-purple-100 px-6 sticky top-0 ">
-    <span class="text-xl font-bold w-1/2 uppercase">ST</span>
-
-    <nav class="hiden md:flex gap-8 w-1/2">
-        <NuxtLink to="/" class="font-semibold no-underline" exactActiveClass="text-red-700">Home</NuxtLink>
-        <NuxtLink to="/about" class="font-semibold no-underline" exactActiveClass="text-red-700">About</NuxtLink>
-        <NuxtLink to="/articles" class="font-semibold no-underline" exactActiveClass="text-red-700">Blog</NuxtLink>
-    </nav>
-</header>
-
-</template>-->
 
 <template>
-  <div class="bg-indigo-100">
-    <nav
-      class="
-        container
-        px-6
-        py-8
-        mx-auto
-        md:flex md:justify-between md:items-center
-      "
-    >
+  <div class="bg-zinc-100">
+    <nav class="container px-8 py-6 mx-auto md:flex md:justify-between md:items-center">
       <div class="flex items-center justify-between">
-        <router-link
-          to="/"
-          class="text-xl font-bold md:text-2xl"
-          >ST
-        </router-link>
+        <router-link to="/" class="text-xl font-bold md:text-2xl no-underline">ST</router-link>
         <!-- Mobile menu button -->
         <div @click="toggleNav" class="flex md:hidden">
-          <button
-            type="button"
-            class="focus:outline-none focus:text-gray-400"
-          >
+          <button type="button" class="focus:outline-none">
             <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
-              <path
-                fill-rule="evenodd"
-                d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
-              ></path>
+              <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"></path>
             </svg>
           </button>
         </div>
       </div>
 
       <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-      <ul :class="showMenu ? 'flex' : 'hidden'"
-        class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
-      >
-        <li class=""><NuxtLink to="/" exactActiveClass="text-red-700">Home</NuxtLink></li>
-        <li class=""><NuxtLink to="/about" exactActiveClass="text-red-700">About</NuxtLink></li>
-        <li class=""><NuxtLink to="/articles" exactActiveClass="text-red-700">Blog</NuxtLink></li>
+      <ul :class="showMenu ? 'flex' : 'hidden'" class="list-none flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:m-0">
+        <li class=""><NuxtLink to="/" class="no-underline font-semibold" activeClass="text-red-700">Home</NuxtLink></li>
+        <li class=""><NuxtLink to="/about" class="no-underline font-semibold" activeClass="text-red-700">About</NuxtLink></li>
+        <li class=""><NuxtLink to="/articles" class="no-underline font-semibold" activeClass="text-red-700">Blog</NuxtLink></li>
       </ul>
     </nav>
   </div>
