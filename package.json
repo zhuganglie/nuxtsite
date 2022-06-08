@@ -10,7 +10,7 @@
     "@iconify-json/mdi": "^1.1.19",
     "@iconify-json/tabler": "^1.1.13",
     "@nuxt/content": "^2.0.1",
-    "@unocss/nuxt": "^0.37.4",
+    "@unocss/nuxt": "^0.38.1",
     "nuxt": "3.0.0-rc.3"
   }
 }
