@@ -3,6 +3,7 @@ const route = useRoute()
 const router = useRouter()
 
 const { data } = await useAsyncData('articles', () => queryContent('/articles').find())
+
 useHead({
     meta: [
         {
@@ -18,10 +19,11 @@ useHead({
 </script>
 
 <template>
+
 <main>
     <h1>Articles</h1>
     <hr />
-
+<input type="text" v-model="input" placeholder="Search text ..." class="w-full md:w-1/4 border-1 rounded py-1.5 px-2" />
 <div class="mt-8 grid place-items-center place-content-center grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-2">
 
 		<ContentList path="/articles" v-slot="{ list }" >
@@ -33,6 +35,7 @@ useHead({
               <p class="flex gap-4">
               <span class="bg-zinc-200 px-2 py-0.5 rounded-full" v-for="tag in article.tags">{{tag}}</span>
           </p>
+
 				</div>
 		</ContentList>
   </div>
