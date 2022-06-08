@@ -1,6 +1,6 @@
 
 <template>
-  <div class="bg-zinc-100">
+  <header class="z-999 bg-zinc-100 top-0 sticky w-full">
     <nav class="container px-8 py-6 mx-auto md:flex md:justify-between md:items-center">
       <div class="flex items-center justify-between">
         <router-link to="/" class="text-xl font-bold md:text-2xl no-underline">ST</router-link>
@@ -21,7 +21,7 @@
         <li class=""><NuxtLink to="/articles" class="no-underline font-semibold hover:bg-zinc-200 px-2 py-1" activeClass="text-red-700">Blog</NuxtLink></li>
       </ul>
     </nav>
-  </div>
+  </header>
 </template>
 
 <script>

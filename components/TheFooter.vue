@@ -1,6 +1,6 @@
 <template>
-<div class="fixed bottom-0 w-full p-4 text-center">
-    <span>&copy;</span> 2020 -
+<footer class="bg-zinc-100 sticky bottom-0 w-full py-2 text-center">
+    <span>&copy; 2020</span> -
     <span>{{new Date().getFullYear()}}</span>
-</div>
+</footer>
 </template>
