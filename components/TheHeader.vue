@@ -16,9 +16,9 @@
 
       <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
       <ul :class="showMenu ? 'flex' : 'hidden'" class="list-none flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:m-0">
-        <li class=""><NuxtLink to="/" class="no-underline font-semibold hover:bg-zinc-200 px-2 py-1 " activeClass="text-red-700">Home</NuxtLink></li>
-        <li class=""><NuxtLink to="/about" class="no-underline font-semibold hover:bg-zinc-200 px-2 py-1" activeClass="text-red-700">About</NuxtLink></li>
-        <li class=""><NuxtLink to="/articles" class="no-underline font-semibold hover:bg-zinc-200 px-2 py-1" activeClass="text-red-700">Blog</NuxtLink></li>
+        <li class=""><NuxtLink to="/" class="no-underline font-semibold hover:bg-zinc-200 px-2 py-1 uppercase" activeClass="text-red-700">Home</NuxtLink></li>
+        <li class=""><NuxtLink to="/about" class="no-underline font-semibold hover:bg-zinc-200 px-2 py-1 uppercase" activeClass="text-red-700">About</NuxtLink></li>
+        <li class=""><NuxtLink to="/articles" class="no-underline font-semibold hover:bg-zinc-200 px-2 py-1 uppercase" activeClass="text-red-700">Blog</NuxtLink></li>
       </ul>
     </nav>
   </header>
