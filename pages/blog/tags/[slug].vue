@@ -7,13 +7,13 @@ const {
 const filter = slug.split(",");
 // set meta for page
 useHead({
-  title: `All articles with ${slug}`,
-  meta: [{ name: "description", content: "Here's a list of all my great articles" }],
+  title: `All posts with ${slug}`,
+  meta: [{ name: "description", content: "Here's a list of all my great posts" }],
 });
 </script>
 
 <template>
-
+<main>
  <ContentList
         path="/blog"
         :query="{
@@ -42,5 +42,5 @@ useHead({
           <p>No post found.</p>
         </template>
       </ContentList>
-
+</main>
       </template>
