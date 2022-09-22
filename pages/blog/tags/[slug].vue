@@ -29,8 +29,9 @@ useHead({
         }"
       >
       <template v-slot="{ list }">
-      <h1>Total {{list.length}} posts with tag {{filter}}  </h1>
+      <h1 class="flex items-center">Posts with Tag </h1>
       <hr />
+      <p class="flex items-center">Here is the list of {{list.length}} posts with tag: &nbsp; &nbsp;<span class="bg-zinc-100 px-4 py-0.5">{{filter}}</span></p>
           <ol class="font-semibold">
             <li v-for="post in list" :key="post._path" class="">
               <NuxtLink :to="post._path" class="no-underline">    
