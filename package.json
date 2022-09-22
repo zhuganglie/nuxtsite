@@ -11,6 +11,6 @@
     "@iconify-json/tabler": "^1.1.34",
     "@nuxt/content": "^2.1.1",
     "@unocss/nuxt": "^0.45.21",
-    "nuxt": "3.0.0-rc.10"
+    "nuxt": "3.0.0-rc.11"
   }
 }

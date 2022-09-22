@@ -13,7 +13,7 @@
       </div> 
              
 <button @click="toggleNav" type="button" class="w-8 h-8 md:hidden focus:outline-none">
-<div class="i-mdi-menu" />
+<div class="i-mdi-menu " />
      </button>
     </nav>
   </div>
