@@ -1,6 +1,6 @@
 ---
-title: 'Learning Facilitation'
-date: '2021-04-26'
+title: Learning Facilitation
+date: 2021-04-26
 tags: ['学习', '培训']
 draft: false
 ---

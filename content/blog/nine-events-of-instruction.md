@@ -1,6 +1,6 @@
 ---
-title: "九步教学法"
-date: "2021-10-10"
+title: 九步教学法
+date: 2021-10-10
 tags: ["培训", "学习"]
 draft: false
 ---

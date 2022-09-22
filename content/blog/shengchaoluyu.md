@@ -1,6 +1,6 @@
 ---
-title: '生炒鲈鱼'
-date: '2022-02-02'
+title: 生炒鲈鱼
+date: 2022-02-02
 tags: ['菜谱', '生活']
 draft: false
 ---

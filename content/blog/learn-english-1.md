@@ -1,6 +1,6 @@
 ---
-title: 'English Lessons - Part 1'
-date: '2021-08-04'
+title: "English Lessons - Part 1"
+date: 2021-08-04
 tags: ['学习', '英文']
 draft: false
 ---

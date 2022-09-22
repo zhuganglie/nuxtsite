@@ -1,6 +1,6 @@
 ---
 title: 'English Lessons - Part 2'
-date: '2021-09-02'
+date: 2021-09-02
 tags: ['学习', '英文']
 draft: false
 ---
