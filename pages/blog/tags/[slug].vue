@@ -1,10 +1,12 @@
 <script setup>
 // get current route slug
 const {
-  params: { slug },
+  params: { slug},
 } = useRoute();
 // get array of filters by generating array from separating slug`,`
-const filter = slug.split(",");
+//const filter = slug.split(",");
+// get string of filter
+const filter = slug
 // set meta for page
 useHead({
   title: `All posts with ${slug}`,
@@ -27,15 +29,15 @@ useHead({
         }"
       >
       <template v-slot="{ list }">
-          <ul class="">
+      <h1>Total {{list.length}} posts with tag {{filter}}  </h1>
+      <hr />
+          <ol class="font-semibold">
             <li v-for="post in list" :key="post._path" class="">
-              <NuxtLink :to="post._path" class="no-underline">
-                                    <h1 class="text-2xl font-semibold">
-                                        {{ post.title }}
-                                        </h1> 
+              <NuxtLink :to="post._path" class="no-underline">    
+                                        {{ post.title }}                      
               </NuxtLink>
             </li>
-          </ul>
+          </ol>
         </template>
         <!-- Not found slot to display message when no content us is found -->
         <template #not-found>
