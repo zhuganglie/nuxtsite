@@ -15,23 +15,23 @@ draft: false
 
 算了，自己动手，丰衣足食。不是刚学了鲜虾粉丝煲的做法吗？弄！
 
-<img src="/images/xianxia.jpg"  alt="xianxia" loading="lazy" width="400" class="block mx-auto rounded w-full md:w-1/2 my-4" />
 
+<img src="/assets/img/xianxia.jpg"  alt="xianxia" loading="lazy" class="responsive" />
 
-#### 食材
+### 食材
 
 - 鲜虾10只
 - 粉丝两把
 - 葱、姜、蒜、小尖椒
 - 料酒、生抽、猪油
 
-#### 食材处理
+### 食材处理
 
 - 粉丝用凉开水浸泡30分钟
 - 鲜虾用盐和料酒腌制15分钟
 - 葱姜蒜椒切末备用
 
-#### 烹制
+### 烹制
 
 - 热锅冷油加入葱白、姜蒜、小尖椒炒香
 - 放入鲜虾煎至八成熟取出备用
@@ -43,3 +43,16 @@ draft: false
 - 关火，放入青葱焖1分钟
 
 端上餐桌，香喷喷，瞬间就嗯～～～。<span role="img" aria-label="Smile">&#128525;</span> 
+
+<style>
+.responsive {
+  max-width: 550px;
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>

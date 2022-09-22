@@ -14,7 +14,7 @@ useHead({
 </script>
 
 <template>
-<main>
+<main >
     <h1>Blog</h1>
     <hr />
 
