@@ -2,8 +2,12 @@ html, body {
   margin:0;
   padding: 0;
   height: 100vh;
+  font-family: sans-serif;
 }
 
+a{
+  text-decoration: none;
+}
 
 ::-webkit-scrollbar {
   width: 2px;
