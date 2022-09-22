@@ -9,7 +9,7 @@
         <h1>Tags</h1>
         <hr />
         <div class="flex space-x-2">
-        <span v-for="tag in uniqueTagList" v-bind:key="tag" class="bg-zinc-100 px-3 py-1">
+        <span v-for="tag in uniqueTagList" v-bind:key="tag" class="bg-zinc-100 px-3 py-1 min-w-max">
             <nuxt-link :to="`/blog/tags/${tag}`" class="no-underline"> # {{ tag }} </nuxt-link>
         </span>
         </div>
