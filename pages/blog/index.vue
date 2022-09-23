@@ -19,7 +19,6 @@ useHead({
     <hr />
 
 <div class="mt-8 grid gap-2">
-
 		<ContentList path="/blog" :query="{only:[], sort:{date: -1}, where:{draft: !true}}" v-slot="{ list }" >
 				<div v-for="post in list" :key="post._path" class="bg-zinc-100 p-2 rounded">
                         <p class="underline">{{ post.date.slice(0, 10) }}</p>
