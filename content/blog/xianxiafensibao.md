@@ -16,7 +16,7 @@ draft: false
 算了，自己动手，丰衣足食。不是刚学了鲜虾粉丝煲的做法吗？弄！
 
 
-<img src="/img/xianxia.jpg"  alt="xianxia" loading="lazy" class="responsive" />
+<img src="/public/img/xianxia.jpg"  alt="xianxia" loading="lazy" class="responsive" />
 
 
 ### 食材
