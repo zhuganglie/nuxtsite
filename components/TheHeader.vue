@@ -20,20 +20,33 @@
 </template>
 
 
-<script setup>
-import { ref } from "vue"
-
-let showMenu = ref(false);
-const toggleNav = () => (showMenu.value = !showMenu.value);
-const close = (e) => {
-      if (!this.$el.contains(e.target)) {
-        this.showMenu = false
+<script>
+  export default {
+  watch:{
+    '$route'(){
+      this.showMenu = false
+    }
+  },
+  data() {
+      return {
+        showMenu: false,
       };
-    };
-const  mounted = () => {
-    document.addEventListener('click', this.close)
-  };
-const beforeDestroy = () => {
-    document.removeEventListener('click',this.close)
-  };
+    },
+  methods: {
+      toggleNav: function (e) {
+        this.showMenu = !this.showMenu;
+      },
+      close (e) {
+        if (!this.$el.contains(e.target)) {
+        this.showMenu = false
+      }
+    }
+  },
+  mounted() {
+     document.addEventListener('click', this.close)
+  },
+  beforeDestroy() {
+     document.removeEventListener('click',this.close)
+  }
+}
 </script>
