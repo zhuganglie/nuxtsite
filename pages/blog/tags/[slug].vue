@@ -53,6 +53,6 @@ useHead({
           <p>No post found.</p>
         </template>
       </ContentList>
-      <a href="/blog/tags" class="mt-8 flex items-center max-w-max px-2 py-0.5 bg-zinc-200"><div class="i-tabler-arrow-narrow-left" />&nbsp;<span>All Tags</span></a>
+      <a href="/blog/tags" class="my-8 flex items-center max-w-max px-2 py-1 bg-zinc-200"><div class="i-tabler-arrow-narrow-left" />&nbsp;<span>All Tags</span></a>
 </main>
       </template>

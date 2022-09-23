@@ -2,6 +2,6 @@
   <div class="">
    <NuxtLayout>
     <NuxtPage />
-    </NuxtLayout>
+  </NuxtLayout>
   </div>
 </template>

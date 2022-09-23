@@ -5,9 +5,8 @@ html, body {
   font-family: sans-serif;
 }
 
-a{
-  text-decoration: none;
-  color: brown;
+a {
+  --at-apply: "no-underline text-red-900";
 }
 
 ::-webkit-scrollbar {
