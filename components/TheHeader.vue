@@ -20,35 +20,20 @@
 </template>
 
 
-<script>
-    /*let showMenu = ref(false);
-    const toggleNav = () => (showMenu.value = !showMenu.value);*/
-export default {
-  watch:{
-    '$route'(){
-      this.showMenu = false
-    }
-  },
-  data() {
-      return {
-        showMenu: false,
-      };
-    },
-  methods: {
-      toggleNav: function (e) {
-        this.showMenu = !this.showMenu;
-      },
-      close (e) {
+<script setup>
+import { ref } from "vue"
+
+let showMenu = ref(false);
+const toggleNav = () => (showMenu.value = !showMenu.value);
+const close = (e) => {
       if (!this.$el.contains(e.target)) {
         this.showMenu = false
-      }
-    }
-  },
-  mounted() {
+      };
+    };
+const  mounted = () => {
     document.addEventListener('click', this.close)
-  },
-  beforeDestroy() {
+  };
+const beforeDestroy = () => {
     document.removeEventListener('click',this.close)
-  }
-}
+  };
 </script>
