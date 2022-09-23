@@ -4,7 +4,6 @@ css: ["@/assets/styles/global.css"],
 buildModules:[
     '@unocss/nuxt',
     '@nuxt/content',
-    '@nuxt/image-edge',
 ],
 unocss: {
     uno: true,
@@ -16,8 +15,6 @@ unocss: {
 content: { 
     documentDriven: true
 },
-image: {
-    // Options
-  }
+
 })
 
