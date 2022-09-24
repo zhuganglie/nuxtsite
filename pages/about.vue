@@ -1,5 +1,6 @@
 <template>
 <main>
+    
     <h1>About</h1>
     <hr />
 <article class="mt-8">
