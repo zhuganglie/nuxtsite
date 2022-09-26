@@ -5,7 +5,7 @@ body {
   --at-apply: "bg-zinc-50 text-zinc-900";
 }
 a {
-  --at-apply: "no-underline text-red-900 hover:text-red-700";
+  --at-apply: "no-underline text-teal-900 hover:text-teal-700";
 }
 textarea {
   --at-apply:"overflow-auto";

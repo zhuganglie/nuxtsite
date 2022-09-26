@@ -1,6 +1,6 @@
 
 <template>
-  <div class="z-999 bg-zinc-100 top-0 sticky max-h-max w-full mx-0 shadow-md">
+  <div class="z-999 bg-zinc-100 top-0 sticky max-h-max w-full mx-0 shadow">
      <nav class=" px-8 py-6 flex justify-between md:justify-around">
 
     <router-link to="/" class=" text-2xl font-bold md:text-2xl no-underline"><span class="">ST</span></router-link>
@@ -13,7 +13,7 @@
       </div> 
 
  <div @click="toggleNav" type="button" class="md:hidden" >        
- <div :class="showMenu ? 'i-tabler-align-left': 'i-tabler-align-right'" class="i-tabler-align-left text-yellow-900 text-3xl"  />
+ <div :class="showMenu ? 'i-tabler-align-left': 'i-tabler-align-right'" class="i-tabler-align-left text-teal-900 text-3xl"  />
   </div>   
     </nav>
   </div>
