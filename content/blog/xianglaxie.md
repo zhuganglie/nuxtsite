@@ -1,7 +1,7 @@
 ---
 title: 香辣蟹
 date: 2022-02-20
-tags: ['生活', '菜谱']
+tags: ['螃蟹', '菜谱']
 draft: false
 ---
 

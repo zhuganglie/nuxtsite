@@ -1,7 +1,7 @@
 ---
 title: 西芹虾仁
 date: 2021-02-21
-tags: ['菜谱', '生活']
+tags: ['菜谱', '虾']
 draft: false
 ---
 

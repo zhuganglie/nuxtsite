@@ -3,7 +3,7 @@
   <div class="z-999 bg-zinc-100 top-0 sticky max-h-max w-full mx-0 shadow">
      <nav class=" px-8 py-6 flex justify-between md:justify-around">
 
-    <router-link to="/" class=" text-2xl font-bold md:text-2xl no-underline"><span class="">ST</span></router-link>
+    <router-link to="/" class=" text-2xl font-bold md:text-3xl no-underline"><span class="rounded-full border-2 px-2 md:px-2.5 py-0.5 bg-teal-900 text-teal-50">Z</span></router-link>
    
       <div :class="showMenu ? 'flex flex-col' : 'hidden'" class=" list-none mt-18 space-y-4  md:space-y-0 md:flex md:flex-row md:items-center md:space-x-10 md:m-0">
         <NuxtLink to="/" class="no-underline hover:bg-zinc-200 px-2 py-1 " activeClass="bg-zinc-200 font-bold">Home</NuxtLink>

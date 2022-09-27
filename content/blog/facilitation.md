@@ -1,7 +1,7 @@
 ---
 title: Facilitating Learning
 date: 2021-04-26
-tags: ['学习', '培训']
+tags: ['教学设计', '培训']
 draft: false
 ---
 

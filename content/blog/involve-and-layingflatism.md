@@ -2,8 +2,8 @@
 title: 内卷与躺平
 date: 2021-05-30
 tags: 
- - 社会
- - 网络新词
+ - 躺平
+ - 热点
 draft: false
 ---
 
