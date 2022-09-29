@@ -1,6 +1,6 @@
 //import { defineNuxtConfig } from "nuxt";
 import transformerDirective from '@unocss/transformer-directives'
-//import presetWebFonts from '@unocss/preset-web-fonts'
+import presetWebFonts from '@unocss/preset-web-fonts'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
@@ -16,7 +16,15 @@ unocss: {
     attributify:true,
     shortcuts: {},
     rules: [],
-    
+    webFonts: {
+      provider: 'google',
+      fonts: {
+        sans: 'Noto Sans',
+        serif: 'Noto Serif',
+        mono: 'Noto Sans Mono',
+        cao: 'Liu Jian Mao Cao',
+      }
+    },
     transformers: [
         transformerDirective(),
       ],
