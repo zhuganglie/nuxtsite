@@ -5,6 +5,7 @@
 </script>
 
 <template >
+<NuxtLayout>
     <main >
         <h1>Tags</h1>
         <hr />
@@ -14,4 +15,5 @@
         </span>
         </div>
     </main>
+    </NuxtLayout>
 </template>

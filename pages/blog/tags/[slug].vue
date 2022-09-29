@@ -15,6 +15,7 @@ useHead({
 </script>
 
 <template>
+<NuxtLayout>
 <main>
  <ContentList
         path="/blog"
@@ -55,4 +56,5 @@ useHead({
       </ContentList>
       <a href="/blog/tags" class="my-8 flex items-center max-w-max px-2 py-1 bg-zinc-200"><div class="i-tabler-arrow-narrow-left" />&nbsp;<span>All Tags</span></a>
 </main>
+</NuxtLayout>
       </template>

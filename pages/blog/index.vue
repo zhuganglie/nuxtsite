@@ -14,6 +14,7 @@ useHead({
 </script>
 
 <template>
+<NuxtLayout>
 <main >
     <h1>Blog</h1>
     <hr />
@@ -35,4 +36,5 @@ useHead({
 		</ContentList>
   </div>
 </main>
+</NuxtLayout>
 </template>

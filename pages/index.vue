@@ -1,4 +1,5 @@
 <template>
+<NuxtLayout>
     <main>
         <div class="w-full md:w-3/4 mx-auto">
         <img src="/img/likes.webp" alt="family"  class=" w-full h-auto mb-4"/>
@@ -15,6 +16,7 @@
 <p>You know the question, just as I did.</p>
     </article>
     </main>
+    </NuxtLayout>
 </template>
 
 <style>
