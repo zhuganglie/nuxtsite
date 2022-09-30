@@ -14,8 +14,5 @@
     "@unocss/preset-web-fonts": "^0.45.25",
     "@unocss/transformer-directives": "^0.45.25",
     "nuxt": "3.0.0-rc.11"
-  },
-  "dependencies": {
-    "@formkit/nuxt": "^1.0.0-beta.10"
   }
 }
