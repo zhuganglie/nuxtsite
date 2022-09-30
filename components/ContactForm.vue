@@ -1,33 +1,23 @@
 <template>
-  <section id="contact">
-    <h1>Contact</h1>
-    <p>
-      Solution view bring test holistic establish generation normal low.
-      Organically maximise for seamless eye workflows from of and. Iterative
-      fruit taking clickthroughs a capitalize view high content. Offline
-      workflows a leverage forward low touchpoints capitalize and survival
-      digital operational disruptive. Approaches new via win up hanging end
-      innovation fruit strategy identify ball.
-    </p>
-    <section class="contact-form">
-      <form name="contact-form" class="eight columns offset-by-two" @submit.prevent="handleSubmit()">
-        <div class="row">
+  
+    <section class="w-1/2 mx-auto">
+      <form name="contact-form" class="flex flex-col items-center justify-center space-y-4" @submit.prevent="handleSubmit()">
+        
           <input
             v-model="formData.from_name"
             type="text"
             name="from_name"
             placeholder="Your Name"
             required
-            class="twelve columns"
+            class="h-8 w-full border-teal-900 rounded px-2"
           />
-        </div>
         <input
           v-model="formData.from_email"
           type="email"
           name="from_email"
           placeholder="you@email.com"
           required
-          class="twelve columns"
+          class="h-8 w-full border-teal-900 rounded px-2"
         />
         <input
           v-model="formData.msg_subject"
@@ -35,19 +25,19 @@
           name="msg_subject"
           placeholder="Subject"
           required
-          class="twelve columns"
+          class="h-8 w-full border-teal-900 rounded px-2"
         />
         <textarea
           v-model="formData.msg_body"
           name="msg_body"
           placeholder="What are you writing about?"
           required
-          class="twelve columns"
+          class="w-full h-48 border-2 border-teal-900 rounded px-2"
         ></textarea>
-        <button type="submit" class="twelve columns">Send</button>
+        <button type="submit" class="w-max h-8 bg-teal-900 text-teal-50 rounded">Submit</button>
       </form>
     </section>
-  </section>
+
 </template>
 
 <script>
@@ -94,29 +84,3 @@ export default {
 }
 </script>
 
-<style scoped>
-.contact-form {
-  width: 80%;
-  margin: 0 auto;
-}
-input,
-textarea {
-  display:block;
-  width: 100%;
-  margin-top: 10px;
-  font-size: 18pt;
-  padding: 10px;
-}
-textarea {
-  min-height: 150px;
-}
-.contact-form button {
-  font-size: 18pt;
-  width: 20%;
-  background-color: #666666;
-  color: #FFFFFF;
-}
-.contact-form button:hover {
-  background-color: #333333;
-}
-</style>
