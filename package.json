@@ -10,9 +10,9 @@
     "@iconify-json/mdi": "^1.1.33",
     "@iconify-json/tabler": "^1.1.37",
     "@nuxt/content": "^2.1.1",
-    "@unocss/nuxt": "^0.45.25",
-    "@unocss/preset-web-fonts": "^0.45.25",
-    "@unocss/transformer-directives": "^0.45.25",
+    "@unocss/nuxt": "^0.45.26",
+    "@unocss/preset-web-fonts": "^0.45.26",
+    "@unocss/transformer-directives": "^0.45.26",
     "nuxt": "3.0.0-rc.11"
   }
 }
