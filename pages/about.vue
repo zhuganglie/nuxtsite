@@ -34,10 +34,13 @@ export default defineComponent( {
     <p>Here is what I like to do.</p>
     <Splide :options="options" aria-label="My Favorite Images" class="w-full md:w-2/3 mx-auto">
     <SplideSlide class="grid place-items-center place-content-center">
-      <div class="grid place-items-center place-content-center">Hello</div>
+      <div class="grid place-items-center place-content-center">Cooking</div>
     </SplideSlide>
     <SplideSlide class="grid place-items-center place-content-center">
-      <div class="grid place-items-center place-content-center">That is great!</div>
+      <div class="grid place-items-center place-content-center">Reading</div>
+    </SplideSlide>
+    <SplideSlide class="grid place-items-center place-content-center">
+      <div class="grid place-items-center place-content-center">Coding</div>
     </SplideSlide>
   </Splide>
   </div>
