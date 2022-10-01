@@ -1,6 +1,6 @@
 <template>
   
-    <section class="w-1/2 mx-auto">
+    <section class="w-full md:w-1/2 mx-auto">
       <form name="contact-form" class="flex flex-col items-center justify-center space-y-4" @submit.prevent="handleSubmit()">
         
           <input
