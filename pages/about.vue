@@ -6,11 +6,13 @@
     <h1>About</h1>
     <hr />
 <article class="mt-8">
-    This is how I deal with life issues.
+   <p>This is how I deal with life issues.</p> 
     <img src="/img/phil.jpeg" loading="lazy" width="550" class="max-w-[550px] w-full h-auto my-20 mx-auto block" />
     </article>
+<section>
     <p>If you also like this way of thinking, drop me a line below.</p>
  <ContactForm />
+ </section>
 </main>
 </NuxtLayout>
 </template>
