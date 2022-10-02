@@ -47,6 +47,6 @@
   },
   beforeDestroy() {
      document.removeEventListener('click',this.close)
-  }
+  ;}
 }
 </script>
