@@ -42,7 +42,7 @@ useHead({
                         </p>
                          <p class="flex gap-3">
               <span class="bg-zinc-200 px-2 py-0.5 rounded-full min-w-max" v-bind:key="tag" v-for="tag in post.tags">
-              <nuxt-link :to="`/blog/tags/${tag}`" class="no-underline"> {{ tag }} </nuxt-link>
+              <nuxt-link :to="`/tags/${tag}`" class="no-underline"> {{ tag }} </nuxt-link>
               </span>
                         </p>
 				</div>
@@ -54,7 +54,7 @@ useHead({
           <p>No post found.</p>
         </template>
       </ContentList>
-      <a href="/blog/tags" class="my-8 flex items-center max-w-max px-2 py-1 bg-zinc-200"><div class="i-tabler-arrow-narrow-left" />&nbsp;<span>All Tags</span></a>
+      <a href="/tags" class="my-8 flex items-center max-w-max px-2 py-1 bg-zinc-200"><div class="i-tabler-arrow-narrow-left" />&nbsp;<span>All Tags</span></a>
 </main>
 </NuxtLayout>
       </template>

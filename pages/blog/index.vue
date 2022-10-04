@@ -28,7 +28,7 @@ useHead({
                         </p>
                          <p class="flex gap-3">
               <span class="bg-zinc-200 px-2 py-0.5 rounded-full min-w-max" v-bind:key="tag" v-for="tag in post.tags">
-              <nuxt-link :to="`/blog/tags/${tag}`" class="no-underline"> {{ tag }} </nuxt-link>
+              <nuxt-link :to="`/tags/${tag}`" class="no-underline"> {{ tag }} </nuxt-link>
               </span>
                         </p>
 
