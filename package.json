@@ -7,13 +7,13 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "@iconify-json/mdi": "^1.1.33",
-    "@iconify-json/tabler": "^1.1.38",
-    "@nuxt/content": "^2.1.1",
-    "@unocss/nuxt": "^0.45.29",
-    "@unocss/preset-web-fonts": "^0.45.29",
-    "@unocss/transformer-directives": "^0.45.29",
-    "nuxt": "3.0.0-rc.11"
+    "@iconify-json/mdi": "^1.1.34",
+    "@iconify-json/tabler": "^1.1.40",
+    "@nuxt/content": "^2.2.0",
+    "@unocss/nuxt": "^0.45.30",
+    "@unocss/preset-web-fonts": "^0.45.30",
+    "@unocss/transformer-directives": "^0.45.30",
+    "nuxt": "3.0.0-rc.12"
   },
   "dependencies": {
     "@splidejs/vue-splide": "^0.6.12"
