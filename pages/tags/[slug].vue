@@ -33,7 +33,7 @@ useHead({
       <h1 class="flex items-center">Posts with Tag </h1>
       <hr />
       <article class="mt-8">
-      <p class="flex items-center">List of {{list.length}} post(s) with <div class="flex items-center bg-zinc-100 px-2.5 py-0.5 mx-1 min-w-max"><div class="i-tabler-tag text-red-900" />&nbsp;<span class="text-red-900"> {{filter}}</span></div> tag:</p>
+      <p class="flex items-center">List of {{list.length}} post(s) with <div class="flex items-center bg-zinc-100 px-2.5 py-0.5 mx-1 min-w-max"><div class="i-tabler-tag text-teal-900" />&nbsp;<span class="text-teal-900"> {{filter}}</span></div> tag:</p>
       <div class="grid gap-2">
       <div v-for="post in list" :key="post._path" class="bg-zinc-100 p-2 rounded">
                         <p class="underline">{{ post.date.slice(0, 10) }}</p>
