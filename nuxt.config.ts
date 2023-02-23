@@ -1,8 +1,8 @@
-//import { defineNuxtConfig } from "nuxt";
-import transformerDirective from '@unocss/transformer-directives'
 
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
+import transformerDirective from '@unocss/transformer-directives'// https://v3.nuxtjs.org/api/configuration/nuxt.config
+
 export default defineNuxtConfig({
+  
 css: ["@/assets/styles/global.css"],
 modules:[
     '@unocss/nuxt',
@@ -28,9 +28,10 @@ unocss: {
         transformerDirective(),
       ],
 },
-content: { 
+/*content: { 
     documentDriven: true
-},
+},*/
+
 
 })
 
