@@ -7,8 +7,8 @@
    
       <div :class="showMenu ? 'flex flex-col' : 'hidden'" class=" list-none mt-18 space-y-4  md:space-y-0 md:flex md:flex-row md:items-center md:space-x-10 md:m-0" @click.stop>
         <NuxtLink class="no-underline hover:bg-zinc-200 px-2 py-1 " activeClass="bg-zinc-200 font-bold" to="/">Home</NuxtLink>
-        <NuxtLink class="no-underline hover:bg-zinc-200 px-2 py-1 " activeClass="bg-zinc-200 font-bold" to="/blog" >Blog</NuxtLink>
-        <NuxtLink to="/tags" class="no-underline hover:bg-zinc-200 px-2 py-1 " exactActiveClass="bg-zinc-200 font-bold">Tags</NuxtLink>
+        <NuxtLink class="no-underline hover:bg-zinc-200 px-2 py-1 " activeClass="bg-zinc-200 font-bold"  to="/blog" >Blog</NuxtLink>
+        <NuxtLink to="/tags" class="no-underline hover:bg-zinc-200 px-2 py-1 " activeClass="bg-zinc-200 font-bold">Tags</NuxtLink>
         <NuxtLink to="/about" class="no-underline hover:bg-zinc-200 px-2 py-1 " activeClass="bg-zinc-200 font-bold">About</NuxtLink>
       </div> 
 
