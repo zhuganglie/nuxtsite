@@ -1,5 +1,3 @@
-
-
 <script>
 import { Splide, SplideSlide } from '@splidejs/vue-splide';
 import { defineComponent } from 'vue';

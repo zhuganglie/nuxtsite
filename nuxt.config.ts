@@ -28,9 +28,9 @@ unocss: {
         transformerDirective(),
       ],
 },
-/*content: { 
-    documentDriven: true
-},*/
+content: { 
+    documentDriven: false
+},
 
 
 })
