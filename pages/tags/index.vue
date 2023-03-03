@@ -21,6 +21,7 @@ const countByTag = computed(() => {
   })
   return count
 })
+
 </script>
 
 <template>

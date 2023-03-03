@@ -3,6 +3,7 @@ import transformerDirective from '@unocss/transformer-directives'// https://v3.n
 
 export default defineNuxtConfig({
   
+ssr: true,
 css: ["@/assets/styles/global.css"],
 modules:[
     '@unocss/nuxt',

@@ -18,6 +18,8 @@
   "dependencies": {
     "@notionhq/client": "^2.2.3",
     "@splidejs/vue-splide": "^0.6.12",
-    "nodemailer": "^6.9.1"
+    "nodemailer": "^6.9.1",
+    "vee-validate": "^4.7.4",
+    "yup": "^1.0.2"
   }
 }

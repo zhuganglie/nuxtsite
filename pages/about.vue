@@ -45,7 +45,7 @@ export default defineComponent( {
     </article>
 <section>
     <p>If you also like this way of thinking, drop me a line below.</p>
- <ContactForm />
+
  </section>
 </main>
 </NuxtLayout>
